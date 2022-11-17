@@ -21,7 +21,7 @@ class Cmodel {
         );
         */
 
-        $mysqli = new mysqli('localhost', 'root', '', 'mvc');
+        $mysqli = new mysqli('localhost', 'root', '', 'blog');
         if (mysqli_connect_errno()) {
 
             echo 'Connection not established';
